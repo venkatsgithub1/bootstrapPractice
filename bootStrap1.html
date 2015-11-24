@@ -1,0 +1,98 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab">
+<link rel="stylesheet" href="css/bootstrap.css">
+<style>
+body {
+	font-family: 'Josefin Slab';
+	font-size: 35px;
+	color:white;
+	background-color: #007a99;
+}
+table {
+	font-size:30px;
+	position:relative;
+	bottom:-10px;
+}
+.class1 {
+	width:150px;
+	height:60px;
+	border-radius:60px;
+	color:teal;
+	position:relative;
+	bottom:-10px;
+}
+.class2 {
+	width:150px;
+	height:60px;
+	border-radius:60px;
+	color:teal;
+	position:relative;
+	bottom:30px;
+}
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+	</div>
+	<div class="container">
+		<div class="col-md-12"/>
+		<div>
+			<div class="col-md-6">
+				<p>Register</p>
+			</div>
+			<div class="col-md-6">
+				<p>Enter username and password</p>
+			</div>
+		</div>
+		<div class="col-md-12"/>
+		<form action="http://localhost:3000/somePage" method="post">
+			<div>
+				<div class="col-md-6">
+					Username
+				</div>
+				<div class="col-md-6">
+					Username
+				</div>
+				<div class="col-md-6">
+					<input type="text" name="username"/><br/>
+				</div>
+				<div class="col-md-6">
+					<input type="text" name="username"/><br/>
+				</div>
+			</div>
+			
+			<div>
+				<div class="col-md-6">
+					Password
+				</div>
+				<div class="col-md-6">
+					Password
+				</div>
+			</div>
+			<div>
+				<div class="col-md-6">
+					<input type="password" name="pwd"/><br/>
+				</div>
+				<div class="col-md-6">
+					<input type="password" name="pwd"/><br/>
+				</div>
+			</div>
+			<div class="col-md-6">
+				Date of birth
+			</div>
+			<div class="col-md-6">
+				<input type="submit" value="Login" name="regOrLogin" class="class1"/>
+			</div>
+			<div class="col-md-12">
+				<input type="date" name="dob"/><br/><br/>
+			</div>
+			<div class="col-md-12">
+				<input type="submit"value="Register" name="regOrLogin" class="class2"/>
+			</div>
+		</form>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"/>
+		<script src="js/bootstrap.js"/>
+	</div>
+</body>
+</html>
